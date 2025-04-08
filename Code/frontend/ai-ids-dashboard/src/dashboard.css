@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+  
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.graphs-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.dashboard-card {
+  width: 45%;
+}
+
+.line-chart {
+  margin-top: 10px;
+}
+
+.status-indicator {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.no-data {
+  font-size: 16px;
+  color: #ff0000;
+}
+
+.alert-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.alert-item {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.alert-item time {
+  font-weight: bold;
+  color: #666;
+}
+
+  
+@media (max-width: 800px) {
+  .line-chart {
+    width: 100%;
+    height: 300px;
+  }
+} 
+
+@media (max-width: 480px) {
+  .dashboard-title {
+    font-size: 2rem;
+  }
+  .card-title {
+    font-size: 1.25rem;
+  }
+} 
+  

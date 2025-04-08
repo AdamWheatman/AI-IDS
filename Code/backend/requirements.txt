@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+tensorflow
+keras-tuner
+imbalanced-learn
+uvicorn
+requests
+fastapi
+pydantic
+scapy

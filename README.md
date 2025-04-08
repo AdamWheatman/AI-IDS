@@ -69,30 +69,30 @@ The full list of uploaded files which need to be extracted / uncompressed are:
 
 1. Install Backend Dependencies
 
-    cd Code <br/>
-    cd backend <br/>
-    pip install -r requirements.txt <br/>
+        cd Code
+        cd backend 
+        pip install -r requirements.txt 
 
 2. Install Frontend Dependencies
 
-    cd.. <br/>
-    cd frontend/ai-ids-dashboard <br/>
-    npm install <br/>
+        cd.. 
+        cd frontend/ai-ids-dashboard 
+        npm install 
  
 3. Run the Backend Server
 
-    cd.. <br/>
-    cd.. <br/>
-    cd backend <br/>
-    python -m uvicorn main:app --reload <br/>
+        cd.. 
+        cd.. 
+        cd backend 
+        python -m uvicorn main:app --reload 
 
     (Default runs on http://127.0.0.1:8000)<br/>
 
 4. Run the Frontend
 
-    cd.. <br/>
-    cd frontend/ai-ids-dashboard<br/>
-    npm start<br/>
+        cd..
+        cd frontend/ai-ids-dashboard
+        npm start
 
     (Default runs on http://localhost:3000)<br/>
 

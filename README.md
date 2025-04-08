@@ -4,6 +4,25 @@
 
 The AI-IDS Dashboard is a web-based interface for monitoring and analyzing network traffic using an AI-powered Intrusion Detection System (IDS). It integrates with a FastAPI backend that runs AI models trained on the CIC-IDS and UNSW-NB15 datasets, providing real-time threat detection and logging.
 
+Included within the files are the models training notebooks, along with the datasets the models were trained on, each of the datasets has been compressed into .7Zip files - when running the model training code, the files will need to be uncompressed. One of the files, "Monday-WorkingHours.pcap_ISCX.csv" couldn't be uploaded - even compressed the dataset was too large of a filsize, this dataset file will have to be downloaded from the original source. 
+
+All of the orignial CICIDS files can be found here: http://cicresearch.ca/CICDataset/CIC-IDS-2017/ <br/>
+All of the orignial UNSW-NB15 files can be found here: https://shorturl.at/m3QUk 
+
+
+The full list of uploaded files which need to be extracted / uncompressed are:
+
+    AI-IDS/Code/backend/Attack.7z
+    
+    AI-IDS/Code/backend/CIC_IDS/data/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.7z
+    AI-IDS/Code/backend/CIC_IDS/data/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.7z
+    AI-IDS/Code/backend/CIC_IDS/data/Friday-WorkingHours-Morning.pcap_ISCX.7z
+    AI-IDS/Code/backend/CIC_IDS/data/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.7z
+    AI-IDS/Code/backend/CIC_IDS/data/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.7z
+    AI-IDS/Code/backend/CIC_IDS/data/Tuesday-WorkingHours.pcap_ISCX.7z
+    
+    AI-IDS/Code/backend/UNSW-NB15/data/Training and Testing Sets.zip
+
 
 ## Features
 

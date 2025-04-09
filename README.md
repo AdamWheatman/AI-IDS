@@ -7,7 +7,7 @@ The AI-IDS Dashboard is a web-based interface for monitoring and analyzing netwo
 Included within the files are the models training notebooks, along with the datasets the models were trained on, each of the datasets has been compressed into .7Zip files - when running the model training code, the files will need to be uncompressed. One of the files, "Monday-WorkingHours.pcap_ISCX.csv" couldn't be uploaded - even compressed the dataset was too large of a filsize, this dataset file will have to be downloaded from the original source. 
 
 All of the orignial CICIDS files can be found here: http://cicresearch.ca/CICDataset/CIC-IDS-2017/ <br/>
-All of the orignial UNSW-NB15 files can be found here: https://shorturl.at/m3QUk 
+All of the orignial UNSW-NB15 files can be found here: https://research.unsw.edu.au/projects/unsw-nb15-dataset 
 
 
 The full list of uploaded files which need to be extracted / uncompressed are:

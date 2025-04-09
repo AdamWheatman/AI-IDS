@@ -18,8 +18,11 @@ The full list of uploaded files which need to be extracted / uncompressed are:
     AI-IDS/Code/backend/CIC_IDS/data/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.7z
     AI-IDS/Code/backend/CIC_IDS/data/Friday-WorkingHours-Morning.pcap_ISCX.7z
     AI-IDS/Code/backend/CIC_IDS/data/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.7z
-    AI-IDS/Code/backend/CIC_IDS/data/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.7z
-    AI-IDS/Code/backend/CIC_IDS/data/Tuesday-WorkingHours.pcap_ISCX.7z
+    AI-IDS/Code/backend/CIC_IDS/data/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.7z 
+    
+    AI-IDS/Code/backend/Attack.7z
+        # Formally Wednesday-workingHours.pcap_ISCX.csv
+        # Benign Data Removed
     
     AI-IDS/Code/backend/UNSW-NB15/data/Training and Testing Sets.zip
 
